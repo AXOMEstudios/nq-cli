@@ -24,6 +24,14 @@ def main(args):
         print("Done. Move "+filename+" to another hard drive for more safety.")
 
 if __name__ == "__main__":
+    if len(sys.argv) <= 1:
+      print('''nq-cli (nonQueror command line interface)
+nq-cli v1.1.0
+Copyright 2021 AXOME <axomedev@gmail.com, http://axome.de>
+\tFor more copyright information, read "LICENSE".
+More information about the nq-cli usage in file "README.md".
+      ''')
+      sys.exit(0) 
     start = time.time()
     main(sys.argv[1:])
     print("Finished in "+str(round(float(time.time() - start),3))+" seconds.")
