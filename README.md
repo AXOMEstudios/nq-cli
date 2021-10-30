@@ -48,6 +48,10 @@ Below is a tree of all nq-cli commands. This list is going to get larger over ti
     - `license`
       - `mit` + optional directory path
       - `apache` + optional directory path
+    - `axome`
+      - `auth` + optional directory path
+      - `sitemap` + optional directory path
+      - `antixsrf` + optional directory path
   - `backup`
 
 To get the command you need, simply follow these elements in the tree.

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys, time, shutil, datetime
 
 print("NonQueror Command Line Interface v1.1.0")
