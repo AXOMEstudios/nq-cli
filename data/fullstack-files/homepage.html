@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block title %}Page{% endblock %}
+
+{% block content %}
+
+{% include "components/navbar.html" %}
+
+<div class="section">
+  <div class="columns is-vcentered">
+    <div class="column">
+      <h1 class="title is-1">Page</h1>
+      <h2 class="subtitle">Subtitle</h2>
+      <a href="/login" class="button is-primary is-rounded is-large is-fullwidth"><strong>BUTTON</strong></a>
+    </div>
+    <div class="column">
+      <figure class="image is-1by1">
+        <img src="/static/icon.png" alt="logo">
+      </figure>
+    </div>
+  </div>
+  <div class="container has-text-centered">
+    <h1 class="title"><strong>Learn more below</strong></h1>
+  </div>
+</div>
+
+<section class="hero is-primary">
+  <div class="hero-body">
+  <div class="columns is-vcentered">
+  <div class="column is-three-quarters">
+    <p class="title">
+      Title
+    </p>
+    <p class="subtitle">
+      Subtitle
+    </p>
+  </div>
+  <div class="column">
+    <figure class="image">
+      <img src="/static/img.png">
+    </figure>
+  </div>
+  </div>
+
+  <div class="columns is-vcentered">
+  <div class="column">
+    <figure class="image">
+      <img src="/static/img.png">
+    </figure>
+  </div>
+  <div class="column is-three-quarters">
+    <p class="title">
+      Title
+    </p>
+    <p class="subtitle">
+      Subtitle
+    </p>
+  </div>
+  </div>
+  <div class="columns is-vcentered">
+  <div class="column is-three-quarters">
+    <p class="title">
+      Title
+    </p>
+    <p class="subtitle">
+      Subtitle
+    </p>
+  </div>
+  <div class="column">
+    <figure class="image">
+      <img src="/static/img.png">
+    </figure>
+  </div>
+  </div>
+  </div>
+</section>
+
+<section class="section has-text-centered">
+  <h1 class="title">Title</h1>
+  <h2 class="subtitle">Subtitle</h2>
+  <p>Lorem Ipsum dolor sit amet</p>
+  <br>
+  <div class="columns">
+      <a class="button is-primary is-medium is-fullwidth column" href="/">
+        <strong>Get started</strong>
+      </a>
+      <a class="button is-medium is-fullwidth column" href="mailto:hello@example.com">
+        <strong>Contact us</strong>
+      </a>
+  </div>
+</section>
+
+{% endblock %}
