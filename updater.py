@@ -1,6 +1,6 @@
 import requests
 
-VERSION_NUMBER_URL = "https://raw.githubusercontent.com/AXOMEstudios/nq-cli/master/data/qn-version"
+VERSION_NUMBER_URL = "https://raw.githubusercontent.com/AXOMEstudios/nq-cli/master/data/nq-version"
 SOFTWARE           = "nq-cli"
 HOW_TO             = "clone the repository at https://github.com/AXOMEstudios/nq-cli into nq-cli"
 

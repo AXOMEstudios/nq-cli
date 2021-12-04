@@ -53,6 +53,8 @@ Below is a tree of all nq-cli commands. This list is going to get larger over ti
       - `sitemap` + optional directory path
       - `antixsrf` + optional directory path
   - `backup`
+  - `version` prints the currently installed version of nq-cli into the terminal.
+  - `update` searches the github repository for updates and notifies you when found
 
 To get the command you need, simply follow these elements in the tree.
 
