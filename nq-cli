@@ -37,6 +37,8 @@ def main(args):
       upd = updater.checkForUpdate()
       if upd[0]:
         print(updater.generateMessage(upd[1], upd[2]))
+      else:
+        print("You are up to date.")
       sys.exit(0)
 
 if __name__ == "__main__":
