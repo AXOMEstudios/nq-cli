@@ -28,10 +28,7 @@ def main(args):
         shutil.make_archive(filename, 'zip', (args[1] if len(args) > 2 else "."))
         print("Done. Move "+filename+" to another hard drive for more safety.")
     if args[0] == "version":
-      with open("version") as f:
-        current = f.read()
-        f.close()
-      print(updater.SOFTWARE, current)
+      print(updater.SOFTWARE, updater.CURRENT)
       sys.exit(0)
     if args[0] == "update":
       upd = updater.checkForUpdate()
